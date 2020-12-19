@@ -3,26 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<title><?php print $seo['title']; ?></title>
-    <meta name="author" content="<?php print $head['author']; ?>" />
-    <meta name="description" content="<?php print $seo['description']; ?>" />
-    <meta name="title" content="<?php print $seo['title']; ?>" />
-    <meta name="copyright" content="<?php print $head['copyright']; ?>" />
-    <meta name="robots" content="index,follow" />
-    <link rel="shortcut icon" href="images/icons/favicon.png">
-    <meta property="og:type" content="article">
-		<!-- CRITICAL CSS -->
-    <meta property="og:description" content="<?php echo $seo['description']?>" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <link rel="shortcut icon" href="images/icons/favicon.png">
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/global.css">
- 
-    
-    
+  
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
@@ -35,9 +19,7 @@
     <link rel="stylesheet" href="./css/slick.min.css">
 </head>
 <body>
-<body>
-<?php include 'seo/analytics.php'; ?>
-<?php include 'js/scripts.php'; ?> 
+
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
