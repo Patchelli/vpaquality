@@ -1,0 +1,43 @@
+/*---------------------------
+Reset
+---------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*---------------------------
+Global
+---------------------------*/
+:root {
+    --azul: #309ad4;
+    --azul-hover: #2a88bb;
+    --cinza: #949494;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+/*---------------------------
+Componentes
+---------------------------*/
+.btn-padrao {
+    background-color: var(--azul);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: #ffffff;
+    min-width: 10rem;
+    cursor: pointer;
+}
+
+.btn-padrao:hover {
+    background-color: var(--azul-hover);
+}
