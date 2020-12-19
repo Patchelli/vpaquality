@@ -1,0 +1,41 @@
+/*---------------------------
+Banner
+---------------------------*/
+.banner-principal .fa-chevron-left {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    z-index: 1;
+    font-size: 2rem;
+    color: var(--azul);
+    cursor: pointer;
+}
+.banner-principal .fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    z-index: 1;
+    font-size: 2rem;
+    color: var(--azul);
+    cursor: pointer;
+}
+
+.banner-principal-texto {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-principal-titulo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.banner-principal-imagem {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}

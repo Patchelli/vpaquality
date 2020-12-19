@@ -16,6 +16,9 @@
     <!--CSS-->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/home.css">
+
+    <!--SLICK-->
+    <link rel="stylesheet" href="./css/slick.min.css">
 </head>
 <body>
     <header>
@@ -34,20 +37,27 @@
     </header>
 
     <div class="banner-principal">
-        <div class="banner-principal-imagem">
-            <img src="./imagens/banners/banner01.jpg" alt="banner">
+        <div class="banner-principal-conteudo">
+            <div class="banner-principal-texto">
+                <h2 class="banner-principal-titulo">Texto do banner</h2>
+                <button class="btn-principal">Botão do banner</button>
+            </div>
+            <img class="banner-principal-imagem" src="./imagens/banners/banner01.jpg" alt="banner">
         </div>
-        <div class="banner-principal-imagem">
-            <img src="./imagens/banners/banner01.jpg" alt="banner">
-        </div>
+
+        <img class="banner-principal-imagem" src="./imagens/banners/banner01.jpg" alt="banner">
     </div>
+
+    <section class="features">
+        <div class="container-principal">
+            <h2 class="titulo-principal">Secao de features</h2>
+        </div>
+    </section>
 
     <!--Scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/functions.js" defer></script>
-
     <!--SLICK-->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slick.min.js"></script>
 </body>
 </html>

@@ -32,6 +32,14 @@ body {
     padding: 0 2rem;
 }
 
+.titulo-principal {
+    font-size: 1.8rem;
+}
+
+.centralizado {
+    text-align: center;
+}
+
 /*---------------------------
 Header
 ---------------------------*/
@@ -71,7 +79,7 @@ Header
 /*---------------------------
 Componentes
 ---------------------------*/
-.btn-padrao {
+.btn-principal {
     background-color: var(--azul);
     border: none;
     outline: none;
@@ -82,6 +90,6 @@ Componentes
     cursor: pointer;
 }
 
-.btn-padrao:hover {
+.btn-principal:hover {
     background-color: var(--azul-hover);
 }
