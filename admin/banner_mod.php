@@ -128,7 +128,7 @@
                         <div class="content_tit" style="margin-left:0px;">Banner Full</div>
                         <input type="file" id="full" class="foto" name="full" tipo="banner_full" value="<?php echo $banner['banner_full'] ?>"/>
                         <p class="pre">Tamanho mínimo recomendado: <span class='tamFull'>1920x860</span> (ou maior proporcional)  -  Extensão recomendada: jpg, png</p>
-                        <span class='maoir'><strong>O arquivo não pode ser maior que:</strong>
+                        <span class='maior'><strong>O arquivo não pode ser maior que:</strong>
                             <?php
                                 $tamanho = explode('M', ini_get('upload_max_filesize'));
                                 $tamanho = $tamanho[0];
@@ -155,7 +155,7 @@
                             <div class="content_tit" style="margin-left:0px;">Banner Mobile</div>
                             <input type="file" id="mobile" class="foto" name="mobile" tipo="banner_mobile" value="<?php echo $banner['banner_mobile'] ?>"/>
                             <p class="pre">Tamanho mínimo recomendado: <span class='tamMobile'>365x470</span> (ou maior proporcional)  -  Extensão recomendada: jpg, png</p>
-                                <span class='maoir'><strong>O arquivo não pode ser maior que:</strong>
+                                <span class='maior'><strong>O arquivo não pode ser maior que:</strong>
                                     <?php
                                         //echo ini_get('upload_max_filesize').'B<br>';
                                         $tamanho = explode('M', ini_get('upload_max_filesize'));
