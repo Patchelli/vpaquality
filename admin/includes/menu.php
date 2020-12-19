@@ -78,6 +78,14 @@
       </ul>
     </li>
 
+    <?php if(verificaPermissaoAcesso('features_visualizar', $MODULOACESSO['usuario'])){ ?>
+    <li class="menu_ul_li">
+      <a class="menu_ul_li_a"><i class="fa fa-picture-o" aria-hidden="true"></i>Features</a>
+      <ul>
+        <li><a href="index.php?mod=features&amp;acao=listarFeatures">• Listagem</a></li>
+      </ul>
+    </li>
+    <?php } ?>
 
     <li class="menu_ul_li">
       <a class="menu_ul_li_a"><img width="15" height="16" alt="ico" src="images/ico_conf.png">Configuração</a>
