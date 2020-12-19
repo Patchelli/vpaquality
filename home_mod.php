@@ -9,7 +9,6 @@
         </div>
         <img class="banner-principal-imagem" src="./imagens/banners/banner01.jpg" alt="banner">
     </div>
-
     <img class="banner-principal-imagem" src="./imagens/banners/banner01.jpg" alt="banner">
 </div>
 
