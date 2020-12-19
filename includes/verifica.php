@@ -4,12 +4,20 @@
     $postArray = isset($_REQUEST['p']) ? explode("/",$_REQUEST['p']) : array();
     $testa =  getcwd();
     
-    if($testa == "/home/admin/web/in.falamaiscoda.br/public_html/vpaquality"){
+    // if($testa == "/home/admin/web/in.falamaiscoda.br/public_html/vpaquality"){
+    //     @define('ENDERECO', 'http://'.$_SERVER['HTTP_HOST'].'/vpaquality/');
+    // }else{
+    //     @define('ENDERECO', 'http://'.$_SERVER['HTTP_HOST'].'/');
+	// }
+	
+	if($testa == "/home/admin/public_html/vpaquality"){
         @define('ENDERECO', 'http://'.$_SERVER['HTTP_HOST'].'/vpaquality/');
+    }elseif($testa == "C:\\xampp\htdocs\ vpaquality.com.br"){
+        @define('ENDERECO', 'http://'.$_SERVER['HTTP_HOST'].'/vpaquality.com.br/');
     }else{
         @define('ENDERECO', 'http://'.$_SERVER['HTTP_HOST'].'/');
     }
-
+    
     
 	$_SESSION['modulo'] = isset($postArray[0]) ? $postArray[0] : '';
 	$_SESSION['idu'] = isset($postArray[1]) ? $postArray[1] : '';
@@ -22,6 +30,6 @@
 			$PAGINA = 'index';
 		break;
 	}
-
+	include_once("verifica_link.php");
       
 ?>

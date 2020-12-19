@@ -21,13 +21,8 @@
 <meta charset="UTF-8">
 <title><?php print $info['tituloPagina']; ?></title>
 
-<<<<<<< HEAD
-<link rel="shortcut icon" href="images/cliente/favicon.ico" />
-<link rel="shortcut icon" href="images/cliente/favicon.png" />
-=======
 <!-- <link rel="shortcut icon" href="images/cliente/favicon.ico" />
 <link rel="shortcut icon" href="images/cliente/favicon.png" /> -->
->>>>>>> 638d1478dab5a5f6bde6d8e31ed39c1b8d51c96c
 <link type="text/css" rel="stylesheet" href="js/jqueryuired/jquery-ui.min.css" />
 <link type="text/css" rel="stylesheet" href="css/style.css" />
 <link type="text/css" rel="stylesheet" href="css/fonts.css" />

@@ -2,7 +2,7 @@
     setlocale(LC_TIME, 'pt_BR.utf8');
 
     include 'verifica.php';
-    include 'verifica_link.php';
+
 
     if(@!empty($MODULO) && @file_exists($MODULO.'_mod.php')){
         $endereco = $MODULO;
