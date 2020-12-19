@@ -4,8 +4,8 @@
 	$info['nomeSistema'] = "Sistema de Gerenciamento de Conte&uacute;do"; // nome do sistema
 	$info['siglaSistema'] = "SGC"; //sigla do sistema
 	$info['tituloRodape'] = $info['nomeSistema'].'<br />Desenvolvido por <a href="">Fala Mais Coda</a>'; // texto do rodape
-	$info['tituloRodapeLogin'] = $info['nomeSistema'].'<br />Desenvolvido por <a href="">Agência Red</a>'; // texto do rodape
+	$info['tituloRodapeLogin'] = $info['nomeSistema'].'<br />Desenvolvido por <a href="">Fala Mais Coda</a>'; // texto do rodape
 	$info['urlSite'] = '../';
-	$info['cidade'] = 'São José dos Pinhais';
+	$info['cidade'] = 'Curitiba';
 
 ?>
