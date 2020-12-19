@@ -18,10 +18,54 @@ Global
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
     font-size: 62.5%;
+}
+
+.container-principal {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/*---------------------------
+Header
+---------------------------*/
+.menu-principal {
+    width: 100%;
+    background-color: #fff;
+}
+
+.menu-principal .container-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.menu-principal ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu-principal a {
+    text-decoration: none;
+    color: var(--cinza);
+    font-size: .8rem;
+    margin-left: 2rem;
+    text-transform: uppercase;
+}
+
+.menu-principal a.ativo {
+    color: var(--azul);
+}
+
+.menu-principal a:hover {
+    color: var(--azul-hover);
 }
 
 /*---------------------------
